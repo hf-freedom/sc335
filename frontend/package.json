@@ -1,0 +1,22 @@
+{
+  "name": "housekeeping-frontend",
+  "version": "1.0.0",
+  "description": "家政阿姨派单系统前端",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --port 4008",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "vue": "^2.7.14",
+    "vue-router": "^3.6.5",
+    "axios": "^1.6.0",
+    "element-ui": "^2.15.13"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "vue-template-compiler": "^2.7.14",
+    "sass": "^1.69.0",
+    "sass-loader": "^13.3.2"
+  }
+}

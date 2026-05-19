@@ -1,0 +1,15 @@
+server:
+  port: 8008
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: housekeeping-system
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+logging:
+  level:
+    com.housekeeping: DEBUG
